@@ -2,6 +2,7 @@ h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 250%;
+  text-align: center;
 }
 h2,
 h3 {
@@ -11,6 +12,8 @@ h3 {
 }
 body {
   margin: 2em;
+  max-width: 1000px;
+  margin: auto;
 }
 body,
 input[type="text"],
@@ -18,7 +21,23 @@ button {
   color: #333;
   font-family: Cambria, Georgia, serif;
 }
-
 * {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+a,
+button {
+  cursor: pointer;
 }
